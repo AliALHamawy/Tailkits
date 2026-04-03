@@ -16,6 +16,3 @@
     --color-green: #00c950;
     --line-bg: oklch(87% 0 0);
 }
-body {
-    min-height: 1000000px;
-}

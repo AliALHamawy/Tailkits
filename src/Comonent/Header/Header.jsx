@@ -3,7 +3,7 @@ import './Header.css'
 
 function Header({show, setShow}) {
   return (
-    <div className="header bg-(--primary-color) px-4 fixed w-full">
+    <div className="header z-50 bg-(--primary-color) px-4 fixed w-full">
 
     <div className={`header ${show ? 'flex' : 'hidden'} max-w-[600px] relative m-auto items-center md:justify-center gap-4 text-center px-4 p-2 `}>
       <div className='bg-(--color-main) flex text-(--primary-color) text-center items-center px-2 py-0.5 text-sm rounded-2xl '><svg class="h-3 shrink-0 mr-1.5 text-slate-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon"> <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z" clip-rule="evenodd"></path> </svg>PH10</div>

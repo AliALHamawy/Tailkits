@@ -32,7 +32,7 @@ function Contact() {
               <button className='text-[14px] p-2 rounded-xl shadow-xl w-fit text-(--primary-color) flex items-center gap-1 bg-(--color-main) transition-all duration-300 hover:bg-(--text-mainHover) '>Try free <span className=' text-(--text-secondary)'>- 14 days</span><AiOutlineArrowRight className="ml-2" /></button>
 
             </div>
-            <div className="right relative"><img src="/assets/browser-mock-up-dark.png" alt="" className='absolute :-right-[650px] -bottom-[540px]  md:-right-[650px] md:-bottom-[540px] lg:-right-[550px] lg:-bottom-[350px] min-w-[1000px]'/></div>
+            <div className="right relative"><img src="/assets/browser-mock-up-dark.png" alt="" className='absolute -right-[730px] -bottom-[540px]  md:-right-[650px] md:-bottom-[540px] lg:-right-[550px] lg:-bottom-[350px] min-w-[1000px]'/></div>
           </div>
         </div>
       </div>
