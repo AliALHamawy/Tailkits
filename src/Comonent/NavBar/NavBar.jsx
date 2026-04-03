@@ -3,8 +3,8 @@ import './NavBar.css'
 
 function NavBar({show}) {
   return (
-    <nav className={`navbar fixed  backdrop-blur-md border-b border-white/20  w-full px-12 py-6 ${show ? 'mt-10': 'mt-0'}`}>
-      <div className="cont relative bg-(--secondary-color) flex items-center justify-between m-auto px-4  rounded-2xl max-w-7xl max-h-[50px] p-7 text-(--text-main)">
+    <nav className={`navbar fixed  backdrop-blur-md border-b  border-white/20  w-full px-12 py-4 ${show ? 'mt-10': 'mt-0'}`}>
+      <div className="cont relative bg-(--secondary-color) shadow-2xl flex items-center justify-between m-auto px-4  rounded-2xl max-w-7xl max-h-[50px] p-7 text-(--text-main)">
         <div className="left  pr-8 flex gap-8"> <img src="/assets/logo.svg" alt="" className='h-7.25 w-9.75'/> <div className="flex w-[0.5px] h-4 bg-(--line-bg) m-auto hidden lg:block"></div></div>
         <div className="mid  absolute left-[50%]  -translate-x-[50%] hidden lg:block">
           <ul className="flex justify-between gap-4">
