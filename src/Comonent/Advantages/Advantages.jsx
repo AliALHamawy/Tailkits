@@ -7,7 +7,7 @@ function Advantages() {
       <div className="cont flex flex-col md:flex-row">
         <div className="left md:w-[50%] min-h-80" style={{backgroundImage: `url(/assets/bg-linear-6.png)`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
         </div>
-        <div className="right px-2 pt-12 md:p-15 flex flex-col m-auto md:m-0  text-start items-start gap-8 w-[570px]">
+        <div className="right px-2 pt-12 md:p-15 flex flex-col m-auto md:m-0  text-start items-start gap-8 max-w-[570px]">
           <p className='text-[14px] bg-(--color-main) text-(--primary-color) p-1 px-2 rounded-2xl w-fit shadow-xl'>Introducing TailKits Astro</p>
         <h1 className='text-4xl font-bold text-(--text-main)'>Discover powerful advantages</h1>
         <p className='text-(--text-secondary) text-[16px] font-medium'>Embark on a journey of design exploration to craft extraordinary SaaS experiences that captivate and convert</p>
