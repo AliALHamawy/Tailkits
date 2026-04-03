@@ -26,7 +26,7 @@ function Contact() {
               <p className="text-[14px] text-(--text-black)">Customer happiness</p>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row bg-[#7C7FD9] max-w-7xl justify-between relative overflow-hidden p-10 lg:pt-50 rounded-3xl">
+          <div className="flex flex-col mt-10 lg:flex-row bg-[#7C7FD9] max-w-7xl justify-between relative overflow-hidden p-10 lg:pt-50 rounded-3xl">
             <div className="left text-left flex flex-col gap-10 lg:w-[50%] lg:pr-40 mb-40 lg:mb-10">
               <p className='text-(--primary-color) text-3xl md:text-5xl '>Experience innovation like never before</p>
               <button className='text-[14px] p-2 rounded-xl shadow-xl w-fit text-(--primary-color) flex items-center gap-1 bg-(--color-main) transition-all duration-300 hover:bg-(--text-mainHover) '>Try free <span className=' text-(--text-secondary)'>- 14 days</span><AiOutlineArrowRight className="ml-2" /></button>
