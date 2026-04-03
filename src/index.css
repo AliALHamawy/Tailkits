@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root{
+    --primary-color: #f2fafb;
+    --secondary-color: #ffffff;
+    --secondary-colorHover: oklch(97% 0 0);
+    --hero-bg: #deedff;
+    --color-main: #0f172b;
+    --text-main: #243145;
+    --text-mainHover: oklch(27.9% 0.041 260.031);
+    --text-secondary: #44546c;
+    --text-black: #404040;
+    --icons-color-main: #334155;
+    --contact-color: #7c7fd9;
+    --light-color: #cbd5e1;
+    --color-green: #00c950;
+    --line-bg: oklch(87% 0 0);
+}
+body {
+    min-height: 1000000px;
+}

@@ -1,0 +1,10 @@
+export {default as Header} from './Header/Header';
+export {default as NavBar} from './NavBar/NavBar';
+export {default as Hero} from './Hero/Hero';
+export {default as Brands} from './Brands/Brands';
+export {default as Advantages} from './Advantages/Advantages';
+export {default as Contact} from './Contact/Contact';
+export {default as Introducing} from './Introducing/Introducing';
+export {default as Scroll} from './Scroll/Scroll';
+export {default as Pricing} from './Pricing/Pricing';
+export {default as Footer} from './Footer/Footer';

@@ -1,0 +1,9 @@
+import './Scroll.css'
+
+function Scroll() {
+  return (
+    <div>Scroll</div>
+  )
+}
+
+export default Scroll
