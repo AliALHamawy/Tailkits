@@ -8,8 +8,8 @@
     --color-main: #0f172b;
     --text-main: #243145;
     --text-mainHover: oklch(27.9% 0.041 260.031);
-    --text-secondary: #44546c;
-    --bg-secondary: #909cad8e;
+    --text-secondary: #44546cad;
+    --bg-secondary: oklch(0.87 0.02 252.6);
     --text-black: #404040;
     --icons-color-main: #334155;
     --contact-color: #7c7fd9;
@@ -17,4 +17,5 @@
     --color-green: #00c950;
     --color-pink: #feecea;
     --line-bg: oklch(87% 0 0);
+    --card-bg: oklch(97% 0 0);
 }
